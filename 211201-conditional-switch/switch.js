@@ -1,4 +1,3 @@
-
 /*******************
  * Switch statements
  * *****************
@@ -20,41 +19,42 @@
  * 
  * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch
  * 
- * Exercises: https://classroom.github.com/classrooms/95277300-e08-1/assignments/211201-switch
+ * Exercises:
+ *    https://classroom.github.com/a/g6fC8gox
  */
 
 
-var country = "Poland"
-// var country = "Canada"
-// var country = "France"
-let currency
-
-
-switch (country) {
-  case "France":
-  case "Germany":
-  case "Italy":
-  case "Spain":
-    // All the above cases will "fall through" to this line
-    currency = "Euro"
-    // The `break` command breaks out of the switch statement
-  break
-  
-  case "Poland":
-    currency = "Zloty"
-  break
-
-  case "Serbia":
-    currency = "Динар"
-  break
-
-  default:
-    // If none of the above cases is found
-    // the `default` case will be applied
-    currency = "Dollar"
-    // There is no need for a `break` at the end
-}
-
-
-console.log("country:", country, ", currency:", currency)
-// country: Poland , currency: Zloty
+ var country = "Poland"
+ // var country = "Canada"
+ // var country = "France"
+ let currency
+ 
+ 
+ switch (country) {
+   case "France":
+   case "Germany":
+   case "Italy":
+   case "Spain":
+     // All the above cases will "fall through" to this line
+     currency = "Euro"
+     // The `break` command breaks out of the switch statement
+   break
+   
+   case "Poland":
+     currency = "Zloty"
+   break
+ 
+   case "Serbia":
+     currency = "Динар"
+   break
+ 
+   default:
+     // If none of the above cases is found
+     // the `default` case will be applied
+     currency = "Dollar"
+     // There is no need for a `break` at the end
+ }
+ 
+ 
+ console.log("country:", country, ", currency:", currency)
+ // country: Poland , currency: Zloty
